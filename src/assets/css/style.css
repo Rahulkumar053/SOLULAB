@@ -1,0 +1,165 @@
+/********Navbar********/
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5vh;
+  background-color: white;
+  margin: auto;
+}
+.nav-container {
+  width: 5rem;
+  text-align: center;
+  justify-content: center;
+  border-right: 1px solid #ececec;
+}
+.nav-container p {
+  color: grey;
+  font-size: 10px;
+}
+.icon-logo {
+  background: #29b712;
+  height: 4vh;
+  border: 1px solid #29b712;
+}
+
+.icon {
+  padding: 15px 0 15px 0;
+}
+.icon p:hover {
+  color: white;
+}
+.icon:hover {
+  color: #29b712;
+  background-color: #29b712;
+  cursor: pointer;
+  /* background-color: #29b712; */
+}
+.vector-img {
+  padding-top: 15px;
+}
+/******End*************/
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-conatiner {
+  display: flex;
+  height: 6vh;
+}
+hr {
+  background-color: #cf3838;
+  color: #fffefe;
+  width: 97%;
+}
+.right-box {
+  display: flex;
+
+  width: 30rem;
+  gap: 2rem;
+}
+.gender {
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+}
+.status {
+  display: flex;
+  width: 20rem;
+  justify-content: space-around;
+}
+.iput-box {
+  padding-top: 10px;
+  padding-left: 18px;
+}
+.iput-box input {
+  border: none;
+  width: 40rem;
+  height: 5vh;
+}
+.iput-box input::placeholder {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(36, 40, 49, 0.3);
+}
+/******Input**********/
+.container-input {
+}
+.input-conatiner {
+  float: right;
+}
+.title {
+  display: flex;
+  gap: 1rem;
+  padding-left: 20px;
+}
+.inp {
+  /* border-right: 1px solid grey; */
+  padding: 0 20px 0 20px;
+}
+.name {
+  font-size: 15px;
+  font-weight: 700;
+}
+.email {
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-top: 18px;
+}
+
+.down-txt-container {
+  display: flex;
+  margin-top: -14px;
+}
+.left-box-input {
+  display: flex;
+  width: 100%;
+}
+.right-box-input {
+  display: flex;
+}
+.upcoming {
+  display: flex;
+}
+
+.light-txt {
+  color: #6b6b6b;
+}
+.dwn-txt {
+  margin-top: -10px;
+}
+.line {
+  border: 1px solid #999898;
+  height: 40px;
+  margin-top: 22px;
+}
+.display-flex-inp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.inp-link {
+  text-decoration: none;
+  /* font-family: "Open Sans"; */
+  color: #29b712;
+  font-weight: 600;
+  width: 100px;
+  text-align: left;
+  padding: 0 20px 0 40px;
+  margin-top: -15px;
+}
+.past {
+  padding: 10px 20px 0 20px;
+}
+.upcoming {
+  padding: 0 20px 0 20px;
+}
+.number-inp {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/********************/
